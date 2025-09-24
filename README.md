@@ -10,9 +10,9 @@
 
 # pcap analysis
 ## Scanning
-Liên tục có các gói Syn được gửi đến các port khác nhau, điều này cho thấy có ai đó đang scan hệ thống của chúng ta 
+There are constantly Syn packets being sent to different ports, which shows that someone is scanning our system.
 ![alt text](assets/image.png)
 
 ## Attack
-Nhận thấy có bất thường ở giao thức SMB, khi kiểm tra cá gói tin, ta thấy một chuỗi dài chứa hàng loạt các ký tự A, điều này cho thấy, hacker đang tấn công bằng cách khai thác lỗi Buffer Overflow 
+Realizing there is an abnormality in the SMB protocol, when checking the packets, we see a long string containing a series of A characters, this shows that the hacker is attacking by exploiting the Buffer Overflow error.
 ![alt text](assets/image-1.png)
